@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PdfiumViewer</id>
+    <version>3.13.0.0</version>
+    <title>PdfiumViewer</title>
+    <authors>Books N' Bytes, Inc.</authors>
+    <owners>Pieter van Ginkel</owners>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://github.com/pvginkel/PdfiumViewer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PDF viewer based on the PDFium project. v2.13.0.0 Repackaged by Books N' Bytes, Inc. in 2019 with native libraries (with XFA) as v3.13.0.0.</description>
+    <copyright>Pieter van Ginkel © 2012-2015</copyright>
+    <tags>pdf viewer pdfium</tags>
+  </metadata>
+  <files>
+	<file src="lib\net20\PdfiumViewer.dll" target="lib\net20\PdfiumViewer.dll" />
+	<file src="lib\net20\nl\PdfiumViewer.resources.dll" target="lib\net20\nl\PdfiumViewer.resources.dll" />
+	<file src="PdfiumViewer.targets" target="Build\"  />
+	<file src="x86\pdfium.dll" target="Build\x86\" />
+	<file src="x64\pdfium.dll" target="Build\x64\" />
+  </files>
+</package>
